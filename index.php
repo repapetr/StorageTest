@@ -24,7 +24,7 @@ if(isset($_GET['upload'])){
     $content = file_get_contents("https://www.enterprise.com/content/enterprise_cros/data/vehicle/bookingCountries/US/TRUCKS/PPAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1444355026452.png");
     $blob_name = "pickup2.png";
 
-    
+    echo "sdfds";
     
 try    {
     //Upload blob
