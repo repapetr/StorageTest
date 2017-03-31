@@ -18,6 +18,7 @@ $connectionString = "DefaultEndpointsProtocol=http;AccountName=iscloud;AccountKe
         $blobRestProxy = ServicesBuilder::getInstance()->createBlobService($connectionString);
 if(isset($_GET['upload'])){
     //uloží soubor jako stream
+    //
     #$content = fopen("https://www.enterprise.com/content/enterprise_cros/data/vehicle/bookingCountries/US/TRUCKS/PPAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1444355026452.png", "r");
 //uloží klasicky 
     $content = file_get_contents("https://www.enterprise.com/content/enterprise_cros/data/vehicle/bookingCountries/US/TRUCKS/PPAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1444355026452.png");
