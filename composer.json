@@ -1,0 +1,13 @@
+{
+    "name": "vendor/composer",
+    "description": "Description of project Composer.",
+    "authors": [
+        {
+            "name": "Master BOSS",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "microsoft/windowsazure": "v0.5.1"
+    }
+}
